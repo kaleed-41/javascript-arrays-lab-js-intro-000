@@ -23,5 +23,5 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   //return [...kittens, name];
-  return kittens.concat(name);
+  return kittens.concat(name);//this or previous line can be used
 }
